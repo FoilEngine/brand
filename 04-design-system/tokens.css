@@ -1,0 +1,61 @@
+/* Foil — generated from tokens.json */
+:root, [data-theme="light"] {
+  --paper: #f3f0e8;
+  --paper-raised: #faf8f3;
+  --ink: #16171a;
+  --ink-muted: #5c6068;
+  --hairline: #d9d5cb;
+  --steel: #8a9099;
+  --signal: #d22f25;
+  --signal-text: #b4231b;
+  --on-signal: #ffffff;
+  --laiton: #9c7c46;
+  --win: #2f7d4f;
+  --foil-base: #16171a;
+  --foil-cyan: #7fe7e0;
+  --foil-violet: #b39cff;
+  --foil-pink: #ff9ec7;
+  --foil-gold: #f2d48a;
+  --rarity-common: #c9c4b8;
+  --rarity-uncommon: #3aa89a;
+  --rarity-rare: #d14b8f;
+  --rarity-epic: #e07a2f;
+  --rarity-special: var(--laiton);
+  --shadow-card: 0 1px 0 rgba(22,23,26,0.08), 0 12px 24px -12px rgba(22,23,26,0.35);
+}
+[data-theme="dark"] {
+  --paper: #121316;
+  --paper-raised: #1b1c20;
+  --ink: #f3f0e8;
+  --ink-muted: #a3a8b0;
+  --hairline: #2c2e33;
+  --steel: #6b717a;
+  --signal-text: #ff6b5f;
+  --laiton: #c9a86a;
+  --win: #5fbf86;
+  --shadow-card: 0 1px 0 rgba(0,0,0,0.4), 0 12px 24px -12px rgba(0,0,0,0.7);
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-card: 10px;
+  --font-display: "Bodoni Moda", "Didot", Georgia, serif;
+  --font-sans: "Inter Tight", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --dur-instant: 160ms;
+  --dur-strike: 150ms;
+  --dur-lunge: 260ms;
+  --dur-recover: 360ms;
+  --dur-sweep: 900ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-strike: cubic-bezier(0.5, 0, 0.1, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
